@@ -1,0 +1,243 @@
+/*Custom Css for my project2 (Resume)*/
+
+html,
+body {
+    font-family: "Lato", sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar.navbar-default {
+    background-color: #212121;
+}
+
+.navbar-default .navbar-nav > li > a {
+   color: #FFFF00;
+   font-weight: bold;
+}
+
+.navbar-default .navbar-header .navbar-brand {
+    color: #FFFF00;
+}
+
+ul.nav a:hover {
+    color: #fff !important;
+}
+
+.intro-section {
+    /*background: url("../images/yel.jpeg") no-repeat center center;*/
+    background-color: #FFFF00;
+    background-blend-mode: overlay;
+    height: auto;
+    padding-bottom: 150px;
+}
+
+.main-title {
+    font-weight: bold;
+    color: #212121;
+}
+
+.subtitle {
+    font-style: italic;
+}
+
+.navbar-default .navbar-brand {
+    color: #d6d6d6;
+    font-weight: bolder;
+}
+
+.super-title {
+    font-size: 60px;
+    padding-top: 150px;
+}
+
+.about-section {
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: left;
+    background-color: #212121;
+    color: #FFFF00;
+    overflow: auto;
+}
+
+.services-section {
+    height : auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: left;
+    background-color: #FFFF00;
+    color: black;
+
+}
+
+.skill-section {
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: left;
+    background-color: #212121;
+    color: #FFFF00;
+}
+
+.progress-bar {
+  background-color: #FFFF00;
+  height: 100%;
+  color: #212121;
+  font-weight: bold;
+}
+
+.education-section {
+    height : auto;
+    padding-top: 50px;
+    text-align: left;
+    background-color: #FFFF00;
+    color: black;
+}
+
+.panel {
+    border-color: #212121;
+    border-width: 0.4em;
+}
+
+.panel-body {
+    background-color: #FFFF00;
+    color: black;
+}
+
+hr{
+   border: 1px solid #212121;
+}
+
+.education-entry {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.project-section {
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    text-align: left;
+    background-color: #212121;
+    color: #FFFF00;
+}
+
+.img-responsive {
+    margin-bottom:15px;
+    margin-top: 10px;
+}
+
+.location-section {
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: left;
+    background-color: #FFFF00;
+    color: black;
+}
+
+.contact-section {
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: left;
+    background-color: #212121;
+    color: #FFFF00;
+}
+
+.footer-section {
+    height: auto;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #FFFF00;
+    color: black;
+}
+
+#map {
+    display: block;
+    height: 100%;
+    margin: 0;
+}
+
+#mapDiv {
+    height: 400px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.fa {
+    color: #FFFF00;
+}
+
+.credit {
+    color: #212121;
+    font-weight: bold;
+}
+
+a {
+    color: #212121;
+}
+
+.btn {
+    margin: 30px;
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+.btn-primary {
+    background: #212121;
+    color: #FFFF00;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+    background: #212121;
+}
+
+.btn-primary:active, .btn-primary.active {
+    background: #007299;
+    box-shadow: none;
+}
+
+a.project-title {
+    color: #FFFF00;
+}
+
+.fa-twitter-square:hover {
+    color: #fff;
+}
+
+.fa-linkedin-square:hover {
+    color: #fff;
+}
+
+.fa-google-plus-square:hover {
+    color: #fff;
+}
+
+.fa-facebook-square:hover {
+    color: #fff;
+}
+
+.img-zoom {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+
+.transition {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
